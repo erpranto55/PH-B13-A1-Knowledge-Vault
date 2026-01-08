@@ -23,6 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
 }
 
 .menu {
@@ -78,21 +80,19 @@ nav .menu a {
 }
 
 #banner .banner-content {
-    /* max-width: 1360px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    padding: 115px 120px;
+    padding: 0 120px;
 }
 
-
 .banner-content .badge {
+    display: flex;
+    align-items: center;
     background-color: #FFFFFF;
     color: #469165;
-    width: 229px;
-    height: 35px;
     font-size: 16px;
     font-weight: 500;
     padding: 8px 12px;
@@ -102,6 +102,8 @@ nav .menu a {
     border-radius: 1000px;
     margin-bottom: 16px;
 }
+
+.banner-content .badge p {}
 
 .banner-content h1 {
     opacity: 90%;
@@ -140,7 +142,7 @@ nav .menu a {
     color: #FFFFFF;
     border: none;
     width: 251px;
-    height: 44px;
+    height: 52px;
     padding: 12.5px 16px;
     font-weight: 600;
     cursor: pointer;
@@ -190,7 +192,7 @@ nav .menu a {
     max-width: 1360px;
     gap: 24px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -239,13 +241,13 @@ nav .menu a {
 .solution-container {
     width: 100%;
     background-color: #FFFFFF;
-    padding: 64px 0;
+    padding: 80px 0;
 }
 
 .solution-container .solution-frame {
     max-width: 1360px;
     display: flex;
-    gap: 80px;
+    gap: 64px;
     align-items: center;
     margin: 0 auto;
 }
@@ -313,19 +315,23 @@ nav .menu a {
     margin-bottom: 16px;
 }
 
-.early-access-container p{
+.early-access-container p {
     color: #627382;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 32px;
-}
-
-.early-access-container .btn1{
     margin-bottom: 16px;
 }
 
-.final{
+.early-access-container .btn1 {
+    margin-bottom: 16px;
+}
+
+footer {
     background-color: #001931;
+}
+
+.final {
+
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -333,11 +339,11 @@ nav .menu a {
     align-items: center;
 }
 
-.final .logo img{
+.final .logo img {
     height: 40px;
 }
 
-.final h5{
+.final h5 {
     color: #FFFFFF;
     font-size: 20px;
     line-height: 28px;
@@ -345,9 +351,15 @@ nav .menu a {
     margin-bottom: 12px;
 }
 
-.final .logos i{
+.final .logos i {
     width: 36px;
     border-radius: 50%;
     gap: 16px;
-    
+
+}
+
+.copyright {
+    color: #FAFAFA;
+    text-align: center;
+    margin-bottom: 30px;
 }
