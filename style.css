@@ -100,6 +100,7 @@ nav .menu a {
     justify-content: center;
     align-content: center;
     border-radius: 1000px;
+    margin-bottom: 16px;
 }
 
 .banner-content h1 {
@@ -238,7 +239,7 @@ nav .menu a {
 .solution-container {
     width: 100%;
     background-color: #FFFFFF;
-    padding: 120px 0;
+    padding: 80px 0;
 }
 
 .solution-container .solution-frame {
@@ -254,11 +255,11 @@ nav .menu a {
     border-radius: 12px;
 }
 
-.solution-instruction{
+.solution-instruction {
     max-width: 560px;
 }
 
-.solution-instruction h4{
+.solution-instruction h4 {
     font-size: 14px;
     color: #469165;
     font-weight: 600px;
@@ -267,28 +268,60 @@ nav .menu a {
     line-height: 20px;
 }
 
-.solution-instruction h2{
+.solution-instruction h2 {
     color: #001931;
     font-weight: bold;
     font-size: 48px;
     margin-bottom: 24px;
 }
 
-.solution-instruction p{
+.solution-instruction p {
     color: #627382;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 24px;
 }
-.solution-instruction ul{
+
+.solution-instruction ul {
     list-style: none;
 }
 
-.solution-instruction ul li{
+.solution-instruction ul li {
     color: #001931;
     font-size: 16px;
     line-height: 20px;
     padding-left: 28px;
     margin-bottom: 16px;
 }
+
+.early-access {
+    padding: 120px 0;
+}
+
+.early-access-container {
+    background-color: #F7F6F2;
+    padding: 80px 120px;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.early-access-container h2 {
+    color: #001931;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.early-access-container p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.early-access-container .btn1{
+    margin-bottom: 16px;
+}
+
 
