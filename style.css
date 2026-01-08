@@ -159,29 +159,29 @@ nav .menu a {
 }
 
 .issue {
-    padding: 96px 120px;
+    padding: 96px 0;
     justify-content: center;
 }
 
 .title {
     width: 1360px;
-    height: 152px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto 64px;
 }
 
 .title h2 {
     color: #001931;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .title p {
     color: #627382;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 640px;
+    margin: 0 auto;
 }
 
 .issue-box {
@@ -189,7 +189,8 @@ nav .menu a {
     max-width:  1360px;
     height: 300px;
     gap: 24px;
-    margin: 44px auto 0;
+    margin: 0 auto;
+    justify-content: space-between;
 
 }
 
@@ -200,11 +201,11 @@ nav .menu a {
     justify-content: center;
     border-radius: 8px;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 44px;
+    padding: 40px 32px;
 }
 
 .box-card .icon{
@@ -215,6 +216,7 @@ nav .menu a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 24px;
 }
 
 .box-card .icon img {
@@ -226,9 +228,11 @@ nav .menu a {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
+    margin-bottom: 12px;
 }
 
 .issue-box .box-card p {
     color: #627382;
+    font-size: 14px;
     line-height: 20px;
 }
