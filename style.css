@@ -186,8 +186,7 @@ nav .menu a {
 
 .issue-box {
     display: flex;
-    max-width:  1360px;
-    height: 300px;
+    max-width: 1360px;
     gap: 24px;
     margin: 0 auto;
     justify-content: space-between;
@@ -196,7 +195,6 @@ nav .menu a {
 
 .issue-box .box-card {
     width: 322px;
-    height: 300px; 
     text-align: center;
     justify-content: center;
     border-radius: 8px;
@@ -208,7 +206,7 @@ nav .menu a {
     padding: 40px 32px;
 }
 
-.box-card .icon{
+.box-card .icon {
     height: 60px;
     width: 60px;
     background-color: rgba(249, 85, 85, 1);
@@ -236,3 +234,61 @@ nav .menu a {
     font-size: 14px;
     line-height: 20px;
 }
+
+.solution-container {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 120px 0;
+}
+
+.solution-container .solution-frame {
+    max-width: 1360px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.solution-frame img {
+    width: 560px;
+    border-radius: 12px;
+}
+
+.solution-instruction{
+    max-width: 560px;
+}
+
+.solution-instruction h4{
+    font-size: 14px;
+    color: #469165;
+    font-weight: 600px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    line-height: 20px;
+}
+
+.solution-instruction h2{
+    color: #001931;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.solution-instruction p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+.solution-instruction ul{
+    list-style: none;
+}
+
+.solution-instruction ul li{
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 28px;
+    margin-bottom: 16px;
+}
+
