@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    background-color: #FFFF;
+    width: 100%;
+    max-width: 1600px;
+}
+
+nav {
+    padding: 16px 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    text-align: center;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+    opacity: 90%;
+}
+
+.btn button {
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    width: 164px;
+    padding: 12.5px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#banner {
+    max-width: 1600px;
+    min-height: 90vh;
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 25, 49, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .banner-content {
+    /* max-width: 1360px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 115px 120px;
+}
+
+
+.banner-content .badge {
+    background-color: #FFFFFF;
+    color: #469165;
+    width: 229px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1000px;
+}
+
+.banner-content h1 {
+    opacity: 90%;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.banner-content h1 .str {
+    color: #FFFFFF;
+}
+
+.banner-content h1 .note {
+    color: #30B868;
+}
+
+.banner-content p {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.idea{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+.btn2 button{
+    background: transparent;
+    border: 1px solid white ;
+    color: #FFFFFF;
+    height: 52px;
+    width: 164px;
+    padding: 12.5px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
