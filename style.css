@@ -6,28 +6,36 @@
 
 .inter {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
 }
 
 header {
-    background-color: #FFFF;
+    background-color: #FFFFFF;
     width: 100%;
+    height: 92px;
     max-width: 1600px;
 }
 
 nav {
-    padding: 16px 120px;
+    padding: 20px 0;
 }
 
 .container {
     display: flex;
+    padding: 16px 120px;
     justify-content: space-between;
     align-items: center;
-    max-width: 1360px;
     margin: 0 auto;
 }
 
+.container .logo img {
+    width: 139px;
+    height: 60px;
+
+}
+
 .menu {
+    width: 365px;
+    height: 24px;
     display: flex;
     list-style: none;
     gap: 32px;
@@ -39,15 +47,18 @@ nav .menu a {
     color: #000000;
     font-size: 16px;
     font-weight: 500;
+    text-align: left;
     line-height: 152%;
     opacity: 90%;
 }
 
-.btn button {
+.btn {
     background-color: #469165;
     color: #FFFFFF;
+    border-radius: 4px; 
     border: none;
     width: 164px;
+    height: 44px;
     padding: 12.5px 16px;
     font-weight: 600;
     cursor: pointer;
@@ -82,7 +93,7 @@ nav .menu a {
 #banner .banner-content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: relative;
     padding: 0 120px;
@@ -100,10 +111,9 @@ nav .menu a {
     justify-content: center;
     align-content: center;
     border-radius: 1000px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
-.banner-content .badge p {}
 
 .banner-content h1 {
     opacity: 90%;
@@ -111,7 +121,6 @@ nav .menu a {
     font-size: 72px;
     line-height: 84px;
     text-align: center;
-    text-transform: capitalize;
 }
 
 .banner-content h1 .str {
@@ -126,13 +135,13 @@ nav .menu a {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 24px;
-    margin-top: 16px;
+    margin-top: 24px;
 }
 
 .idea {
     display: flex;
     gap: 16px;
-    margin-top: 32px;
+    margin-top: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -162,14 +171,15 @@ nav .menu a {
 }
 
 .issue {
-    padding: 96px 0 64px;
+    padding: 96px 0;
     justify-content: center;
 }
 
 .title {
-    width: 1360px;
+    width: 100%;
+    max-width: 1360px;
     text-align: center;
-    margin: 0 auto 64px;
+    margin: 0 auto 72px;
 }
 
 .title h2 {
@@ -206,7 +216,7 @@ nav .menu a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 32px;
+    padding: 48px 32px;
 }
 
 .box-card .icon {
@@ -247,7 +257,7 @@ nav .menu a {
 .solution-container .solution-frame {
     max-width: 1360px;
     display: flex;
-    gap: 64px;
+    gap: 80px;
     align-items: center;
     margin: 0 auto;
 }
@@ -259,12 +269,13 @@ nav .menu a {
 
 .solution-instruction {
     max-width: 560px;
+
 }
 
 .solution-instruction h4 {
     font-size: 14px;
     color: #469165;
-    font-weight: 600px;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 16px;
     line-height: 20px;
@@ -302,7 +313,7 @@ nav .menu a {
 
 .early-access-container {
     background-color: #F7F6F2;
-    padding: 64px 120px;
+    padding: 80px 120px;
     max-width: 1360px;
     margin: 0 auto;
     text-align: center;
@@ -323,15 +334,16 @@ nav .menu a {
 }
 
 .early-access-container .btn1 {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
-footer {
+.footer {
     background-color: #001931;
 }
 
 .final {
-
+    max-width: 1360px;
+    margin: 0 auto;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -352,6 +364,7 @@ footer {
 }
 
 .final .logos i {
+    color: white;
     width: 36px;
     border-radius: 50%;
     gap: 16px;
@@ -359,7 +372,15 @@ footer {
 }
 
 .copyright {
+    max-width: 1360px;
+    margin: 0 auto;
     color: #FAFAFA;
     text-align: center;
-    margin-bottom: 30px;
+    padding: 24px 120px 40px;
+}
+
+.copyright p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFA;
 }
