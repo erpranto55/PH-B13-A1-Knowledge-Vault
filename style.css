@@ -329,6 +329,8 @@ nav .menu a {
 
 .early-access {
     padding: 80px 0;
+    width: 100%;
+    justify-content: center;
 }
 
 .early-access-container {
