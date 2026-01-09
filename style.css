@@ -16,7 +16,8 @@ body {
 header {
     background-color: #FFFFFF;
     width: 100%;
-    max-width: 1600px;
+    /* max-width: 1600px; */
+    justify-content: center;
 }
 
 nav {
@@ -74,14 +75,17 @@ nav .menu a {
 }
 
 #banner {
+    width: 100%;
+    height: 100%;
     max-width: 1600px;
     min-height: 90vh;
+    max-height: 674px;
     background: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
+    align-items: center;    
     justify-content: center;
     text-align: center;
     position: relative;
