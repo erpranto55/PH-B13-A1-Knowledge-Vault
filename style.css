@@ -400,3 +400,11 @@ nav .menu a {
     line-height: 20px;
     color: #FAFAFA;
 }
+
+.space-left{
+    margin-left:5px;
+}
+
+.space-right{
+    margin-right: 5px;
+}
